@@ -10,6 +10,15 @@ app.use(bodyParser.json());
 app.use(cors());
 dotenv.config();
 const port = process.env.PORT;
+app.use((req, res, next) => {
+  if (req.url === '/') {
+    res.status(200).send('Welcome to BarterFunds API');
+  } else {
+    const error = new Error('Not found');
+    error.status = 404;
+    next(error);
+  }
+});
 app.use('/', Admin)
 // app.use('/', Client)
 try {
