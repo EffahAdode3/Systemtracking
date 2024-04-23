@@ -11,6 +11,7 @@ app.use(cors());
 dotenv.config();
 const port = process.env.PORT;
 app.use('/', Admin)
+// app.use('/', Client)
 try {
     await sequelize.authenticate();
     console.log('Connection has been established successfully.');
