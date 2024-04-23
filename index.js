@@ -1,13 +1,13 @@
 import express from "express"
 import bodyParser from "body-parser"
 import  sequelize  from "./db/dbConfig.js"
-import cors from 'cors'
+// import cors from 'cors'
 import dotenv from "dotenv";
 import Admin from "./routes/adminRoute.js"
 import Client from "./routes/clientRoute.js"
 const app = express();
 app.use(bodyParser.json());
-app.use(cors());
+// app.use(cors());
 dotenv.config();
 const port = process.env.PORT;
 app.use('/', Admin)
