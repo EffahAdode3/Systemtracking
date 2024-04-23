@@ -10,22 +10,21 @@ app.use(bodyParser.json());
 app.use(cors());
 dotenv.config();
 const port = process.env.PORT;
-app.get('/', (req, res) => {
-  res.send('Hello, World!');
+
+
+app.use((req, res, next) => {
+  res.header("Access-Control-Allow-Origin", "*");
+  res.header(
+    "Access-Control-Allow-Headers",
+    "Origin, X-Requested-With, Content-Type, Accept, Authorization"
+  );
+  if (req.method === "OPTIONS") {
+    res.header("Access-Control-Allow-Methods", "PUT, POST, PATCH, DELETE, GET");
+    return res.status(200).json({});
+  }
+  next();
 });
-// app.use('/', Admin)
-// app.use((req, res, next) => {
-//   res.header("Access-Control-Allow-Origin", "*");
-//   res.header(
-//     "Access-Control-Allow-Headers",
-//     "Origin, X-Requested-With, Content-Type, Accept, Authorization"
-//   );
-//   if (req.method === "OPTIONS") {
-//     res.header("Access-Control-Allow-Methods", "PUT, POST, PATCH, DELETE, GET");
-//     return res.status(200).json({});
-//   }
-//   next();
-// });
+app.use('/', Admin)
 // app.use('/', Client)
 try {
     await sequelize.authenticate();
