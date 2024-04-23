@@ -19,7 +19,7 @@ app.use((req, res, next) => {
     next(error);
   }
 });
-app.use('/', Admin)
+// app.use('/admin', Admin)
 // app.use('/', Client)
 try {
     await sequelize.authenticate();
