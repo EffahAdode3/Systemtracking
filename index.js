@@ -11,7 +11,7 @@ app.use(cors({
   origin: 'https://shipmentracking-y5fn.vercel.app'
 }));
 dotenv.config();
-const port = process.env.PORT;
+const port = process.env.PORT || 4000;
 app.use('/', Admin)
 app.use('/client', Client)
 try {
