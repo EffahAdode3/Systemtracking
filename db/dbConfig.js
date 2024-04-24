@@ -7,8 +7,8 @@ const Sequelize = new sequelize(
     process.env.PASSWORD,
     process.env.HOST,
      {
-        host: "bipkuxtelwhd2jvzkyor-mysql.services.clever-cloud.com",
-        dialect:"mysql", 
+        host: bipkuxtelwhd2jvzkyor-mysql.services.clever-cloud.com,
+        dialect: 'mysql',
         logging:true,
         port: 3306
 
