@@ -6,7 +6,7 @@ const Sequelize = new sequelize(
     process.env.USER_NAME,
     process.env.PASSWORD,
      {
-    host: 'localhost',
+    host: bipkuxtelwhd2jvzkyor-mysql.services.clever-cloud.com,
     dialect:"mysql", 
     logging:true
 });
