@@ -7,11 +7,12 @@ import Admin from "./routes/adminRoute.js"
 import Client from "./routes/clientRoute.js"
 const app = express();
 app.use(bodyParser.json());
-app.use(cors({
-  origin: 'https://shipmentracking-y5fn.vercel.app'
-}));
+app.use(cors());
 dotenv.config();
 const port = process.env.PORT || 4000;
+// app.get('/', (req, res) => {
+//   res.send('Hello World!')
+// })
 app.use('/', Admin)
 app.use('/client', Client)
 try {
