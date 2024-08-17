@@ -24,7 +24,7 @@ Reporting
 
 6 Admins can export reports in multiple formats ( Excel) for further analysis.
 
-   Backend  Technical Stack 
+                Backend  Technical Stack 
 
 
 1 Node.js for RESTful API development.
@@ -37,7 +37,7 @@ Additional Tools
 JWT for secure authentication.
 Nodemailer for sending email notifications.
 
-    Installation of the backend project  
+                Installation of the backend project  
 
 
 Clone the repository
