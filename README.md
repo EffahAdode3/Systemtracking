@@ -5,7 +5,7 @@ Shipment Tracking System
 Description
 The Shipment Tracking System is a web application designed to streamline the process of tracking shipments. The system enables both staff members and clients to monitor the status and location of shipments in real-time. The application is built using Vue.js for the frontend, Node.js for the backend, and MySQL for the database, ensuring a robust and scalable solution for tracking shipments efficiently.
 
-Key Features :
+     Key Features :
 1 User Authentication
 Secure login and access for staff members and clients using JWT.
 Shipment Tracking
