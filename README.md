@@ -49,8 +49,9 @@ cd Systemtracking
 
          Set up the MySQL database 
 
-1 Create a database in MySQL.
-2 Update the .env file with your database credentials.
+ 1 Create a database in MySQL.
+
+ 2 Update the .env file with your database credentials.
 
         Install backend dependencies:
 
