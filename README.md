@@ -25,13 +25,11 @@ Reporting
 6 Admins can export reports in multiple formats ( Excel) for further analysis.
 
 Technical Stack
-Frontend
-1 Vue.js (Preferred) or any other frontend framework with state management.
 
 Backend
-2 Node.js for RESTful API development.
+1 Node.js for RESTful API development.
 
-3. Database
+2 Database
 MySQL for data storage and management.
 Additional Tools
 
