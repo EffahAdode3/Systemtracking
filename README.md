@@ -1,4 +1,6 @@
+  Backend Shipment Tracking System 
 
+  
 Shipment Tracking System
 Description
 The Shipment Tracking System is a web application designed to streamline the process of tracking shipments. The system enables both staff members and clients to monitor the status and location of shipments in real-time. The application is built using Vue.js for the frontend, Node.js for the backend, and MySQL for the database, ensuring a robust and scalable solution for tracking shipments efficiently.
@@ -38,6 +40,8 @@ JWT for secure authentication.
 Nodemailer for sending email notifications.
 
 Installation of the backend project
+
+
 Clone the repository
 https://github.com/EffahAdode3/Systemtracking.git
 
@@ -48,21 +52,22 @@ Install backend dependencies:
 npm install
 
 
-Set up the MySQL database:
-Create a database in MySQL.
-Update the .env file with your database credentials.
+Set up the MySQL database
+
+1 Create a database in MySQL.
+2 Update the .env file with your database credentials.
 
 Run the backend server:
 npm start
 
 User Authentication:
 
-Register and log in as a client or staff member to access the system.
+1 Register and log in as a client or staff member to access the system.
 Track Shipments:
 
-Enter a tracking number to view the status and location of your shipment.
-Admin Panel:
+2 Enter a tracking number to view the status and location of your shipment.
+  Admin Panel:
 
-Admin users can manage shipments, view reports, and send notifications from the admin dashboard.
+3 Admin users can manage shipments, view reports, and send notifications from the admin dashboard.
 
 
