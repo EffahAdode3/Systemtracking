@@ -55,12 +55,12 @@ cd Systemtracking
 
         Install backend dependencies:
 
-1  npm install
+  npm install
 
 
 
     Run the backend server:
-1 npm start
+ npm start
 
     User Authentication
 
