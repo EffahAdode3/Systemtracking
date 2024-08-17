@@ -46,17 +46,19 @@ https://github.com/EffahAdode3/Systemtracking.git
 Navigate to the project directory:
 cd Systemtracking
 
-Install backend dependencies:
-npm install
 
-
-     Set up the MySQL database 
+  Set up the MySQL database 
 
 1 Create a database in MySQL.
 2 Update the .env file with your database credentials.
 
-Run the backend server:
-npm start
+Install backend dependencies:
+npm install
+
+
+
+    Run the backend server:
+      npm start
 
     User Authentication
 
