@@ -1,40 +1,40 @@
-https://github.com/EffahAdode3/Systemtracking.git
+
 
 Shipment Tracking System
 Description
 The Shipment Tracking System is a web application designed to streamline the process of tracking shipments. The system enables both staff members and clients to monitor the status and location of shipments in real-time. The application is built using Vue.js for the frontend, Node.js for the backend, and MySQL for the database, ensuring a robust and scalable solution for tracking shipments efficiently.
 
-Key Features
-User Authentication
-
+Key Features :
+1 User Authentication
 Secure login and access for staff members and clients using JWT.
 Shipment Tracking
 
-Clients can enter a tracking number to view the current status and location of their shipments.
+2 Clients can enter a tracking number to view the current status and location of their shipments.
 Admin Panel
 
-A dashboard for admin users to manage shipments.
+3 A dashboard for admin users to manage shipments.
 Admins can add new shipments, update details, and mark shipments as delivered.
 Notifications
 
-Automated email or SMS notifications to clients when there are updates on their shipments (e.g., out for delivery, delivered).
+4 Automated email  to clients when there are updates on their shipments (e.g., out for delivery, delivered).
 Reporting
 
-Generate detailed reports on shipment statuses, delivery times, and more.
-Admins can export reports in multiple formats ( Excel) for further analysis.
+5 Generate detailed reports on shipment statuses, delivery times, and more.
+
+6 Admins can export reports in multiple formats ( Excel) for further analysis.
+
 Technical Stack
 Frontend
+1 Vue.js (Preferred) or any other frontend framework with state management.
 
-Vue.js (Preferred) or any other frontend framework with state management.
 Backend
+2 Node.js for RESTful API development.
 
-Node.js for RESTful API development.
-Database
-
+3. Database
 MySQL for data storage and management.
 Additional Tools
 
-Axios for API calls.
+4. Axios for API calls.
 JWT for secure authentication.
 Nodemailer for sending email notifications.
 
@@ -43,14 +43,13 @@ Clone the repository
 https://github.com/EffahAdode3/Systemtracking.git
 
 Navigate to the project directory:
-
+cd Systemtracking
 
 Install backend dependencies:
 npm install
 
 
 Set up the MySQL database:
-
 Create a database in MySQL.
 Update the .env file with your database credentials.
 
