@@ -47,18 +47,19 @@ Navigate to the project directory:
 cd Systemtracking
 
 
-  Set up the MySQL database 
+         Set up the MySQL database 
 
 1 Create a database in MySQL.
 2 Update the .env file with your database credentials.
 
-Install backend dependencies:
-npm install
+        Install backend dependencies:
+
+1  npm install
 
 
 
     Run the backend server:
-      npm start
+1 npm start
 
     User Authentication
 
