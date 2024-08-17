@@ -15,7 +15,7 @@ Admin Panel
 Admins can add new shipments, update details, and mark shipments as delivered.
 Notifications
 
-4 Automated email  to clients when there are updates on their shipments (e.g., out for delivery, delivered).
+4 Automated email  to clients when there are updates on their shipments ( out for delivery, delivered).
 Reporting
 
 5 Generate detailed reports on shipment statuses, delivery times, and more.
@@ -55,10 +55,6 @@ Update the .env file with your database credentials.
 Run the backend server:
 npm start
 
-Usage
-Access the application:
-
-The backend API will be running on http://localhost:3000.
 User Authentication:
 
 Register and log in as a client or staff member to access the system.
